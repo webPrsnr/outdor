@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* FONTS */
+  --roboto: Roboto;
+  --poppins: Poppins;
+
+  /* COLORS */
+  --black: #444444;
+  --brown: #575445;
+  --white: #fff;
+  --yellow: #e6b939;
+}
