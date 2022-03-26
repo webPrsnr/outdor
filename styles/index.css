@@ -57,3 +57,24 @@ p {
   color: var(--yellow);
   font-style: normal;
 }
+
+.main__title {
+  font-family: var(--poppins);
+  font-size: 36px;
+  line-height: 43px;
+  color: var(--brown);
+}
+
+.main__descr {
+  font-family: var(--poppins);
+  color: var(--brown);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.main__more {
+  font-family: var(--poppins);
+  color: var(--brown);
+  font-size: 15px;
+  line-height: 21px;
+}
