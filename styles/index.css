@@ -13,3 +13,18 @@
   --white: #fff;
   --yellow: #e6b939;
 }
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper__outer {
+  padding-left: 136px;
+  padding-right: 136px;
+}
+
+.wrapper__inner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
