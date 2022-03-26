@@ -1,0 +1,70 @@
+.introduction__outter {
+  padding-top: 100px;
+}
+
+.introduction__inner {
+  display: flex;
+  align-items: center;
+}
+
+.introduction__img {
+  position: relative;
+}
+
+.introduction__shape::after {
+  position: absolute;
+  content: "";
+  background-image: url("../../img/icons/shape.svg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  bottom: 20%;
+  left: 75%;
+}
+
+.introduction__shape::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../img/icons/shape.svg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  top: 40%;
+  right: 20%;
+}
+
+.introduction__text {
+  padding-left: 100px;
+}
+
+.personal__title {
+  padding-top: 5px;
+}
+
+.personal__descr {
+  padding-top: 15px;
+}
+
+.personal__more {
+  width: 30%;
+  position: relative;
+  padding-top: 18px;
+}
+
+.main__more {
+  text-decoration: none;
+  font-family: var(--poppins);
+  font-size: 15px;
+  line-height: 21px;
+  color: var(--brown);
+}
+
+.main__more::after {
+  position: absolute;
+  content: "";
+  background-image: url("../../img/icons/arrow-rigth.svg");
+  width: 20px;
+  height: 10px;
+  bottom: 10%;
+  right: 10%;
+}
