@@ -12,10 +12,29 @@
   --brown: #575445;
   --white: #fff;
   --yellow: #e6b939;
+
+  /* media queries */
+  --scren-sm: 576px;
+  --screen-md: 768px;
+  --screen-lg: 992px;
+  --screen-xl: 1200px;
+
+  --screen-xs-max: 575px;
+  --screen-sm-max: 767px;
+  --screen-md-max: 991px;
+  --screen-lg-max: 1199px;
 }
 
 ul {
   padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   margin: 0;
 }
 
@@ -27,4 +46,14 @@ ul {
 .wrapper__inner {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.personal__subtitle {
+  font-family: var(--poppins);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--yellow);
+  font-style: normal;
 }

@@ -11,9 +11,9 @@
     <link rel="stylesheet" type="text/css" href="./styles/blocks/header.css" />
   </head>
   <body>
-    <header class="wrapper__outer header__outer">
-      <div class="wrapper__inner header__inner">
-        <div class="header__top">
+    <header class="header">
+      <div class="header__top">
+        <div class="wrapper__outer wrapper__outter-header">
           <div class="header__logo">
             <a href=""><img src="./img/icons/logo.svg" alt="outdoor logo" /></a>
           </div>
@@ -27,13 +27,24 @@
             </ul>
           </nav>
           <div class="header__btn">
-            <a href="" class="header__btn-item">Buy template</a>
-            <a href="" class="header__btn-item"
-              >Cart <span class="btn__item-value">0</span></a
-            >
+            <div class="header__btn-item"><a href="">Buy template</a></div>
+            <div class="header__btn-item">
+              <a href="">Cart <span class="btn__item-value">0</span></a>
+            </div>
           </div>
         </div>
-        <div class="header__bottom"></div>
+      </div>
+      <div class="wrapper__outer">
+        <div class="wrapper__inner header__inner">
+          <div class="header__bottom">
+            <h4 class="personal__subtitle">outdoor exploration</h4>
+            <h1 class="header__title">Gear for when it actually matters.</h1>
+            <p class="header__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+          </div>
+        </div>
       </div>
     </header>
     <main>
