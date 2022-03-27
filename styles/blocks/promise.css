@@ -1,0 +1,85 @@
+.promise__outter {
+  padding-top: 100px;
+  padding-left: 186px;
+  padding-right: 186px;
+}
+
+.promise__inner {
+  position: relative;
+  padding-top: 100px;
+}
+
+.promise__text-block {
+  text-align: center;
+  max-width: 65%;
+  margin: 0px auto;
+}
+.promise__text-block::after {
+  position: absolute;
+  content: "";
+  background-image: url("../../img/icons/shape-promise.svg");
+  width: 470px;
+  height: 423px;
+  top: 1%;
+  left: 70%;
+}
+
+.promise__text-block::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../img/icons/shape-promise-reserve.svg");
+  width: 554px;
+  height: 424px;
+  bottom: 1%;
+  right: 70%;
+}
+
+.promise__title {
+  padding-top: 5px;
+}
+
+.promise__descr {
+  padding-top: 10px;
+}
+
+.promise__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.promise__container-item {
+  max-width: 287px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 auto;
+  padding: 70px 0;
+}
+
+.promise__item-img {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background-color: var(--brown);
+}
+
+.promise__item-title {
+  flex-grow: 1;
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--brown);
+  font-family: var(--roboto);
+}
+
+.promise__item-descr {
+  padding-top: 10px;
+  font-family: var(--poppins);
+  font-size: 14px;
+  line-height: 20px;
+}
