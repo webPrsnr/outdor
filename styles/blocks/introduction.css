@@ -46,8 +46,6 @@
 }
 
 .personal__more {
-  width: 30%;
-  position: relative;
   padding-top: 18px;
 }
 
@@ -57,14 +55,4 @@
   font-size: 15px;
   line-height: 21px;
   color: var(--brown);
-}
-
-.main__more::after {
-  position: absolute;
-  content: "";
-  background-image: url("../../img/icons/arrow-rigth.svg");
-  width: 20px;
-  height: 10px;
-  bottom: 10%;
-  right: 10%;
 }
