@@ -1,1 +1,1 @@
-# outdor
+# outdoor
